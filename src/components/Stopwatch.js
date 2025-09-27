@@ -34,6 +34,7 @@ export const Stopwatch = () => {
         const [time, setTime] = useState(0);
         const [isRunning, setIsRunning] = useState(false);
         const [activeTab, setActiveTab] = useState("output");
+        const [activeFile, setActiveFile] = useState("App.js");
 
         useEffect(() => {
           if (isRunning) {

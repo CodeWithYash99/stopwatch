@@ -39,6 +39,7 @@
   color: #fff;
   font-weight: 600;
   padding: 0 10px;
+  height: 30px;
 }
 
 .timer {
@@ -67,7 +68,7 @@
 
 ::-webkit-scrollbar {
     width: 2px;
-    background: #f1f1f1;
+    /* background: #f1f1f1; */
 }
 
 /* ::-webkit-scrollbar:hover {
