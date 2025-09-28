@@ -36,6 +36,11 @@ export const Stopwatch = () => {
         const [activeTab, setActiveTab] = useState("output");
         const [activeFile, setActiveFile] = useState("App.js");
 
+        const files = {
+          "App.js": "...",
+          "Stopwatch.js": "...",
+        }
+
         useEffect(() => {
           if (isRunning) {
             let timer = setInterval(() => {
